@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+body,html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: #333333;
+    font-family: "微软雅黑", "宋体";
+}
+.main{
+    margin: 0 auto;
+    max-width: 10rem;
+}
+
+.main .content{
+    width: 100%;
+    height: 17.65rem;
+}
+.main .content img{
+    width: 100%;
+    height: 100%;
+}
+.main  .content-bg{
+    overflow: hidden;
+    width: 100%;
+    height: 7.5rem;
+    margin-top: -0.05rem;
+}
+.main  .content-bg  img{
+    width: 100%;
+    height: 100%;
+}
+.main .content-form{
+    height:7.8rem;
+    background: #fff;
+    -webkit-background-size: contain;
+    background-size: contain;
+    position: relative;
+}
+.main .content-form .form{
+    margin:0 auto;
+    width: 9.213rem;
+    height: 6.96rem;
+    background: #ffcc4b;
+    border-radius: 0.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .content-form .form  .form-item{
+    margin-bottom: 0.05rem;
+    position: relative;
+}
+.main .content-form .form  .form-item .text-common{
+    display: block;
+    width: 7.786rem;
+    height: 0.86rem;
+    border: none;
+    color: #999999;
+    border-radius: 0.133rem;
+    font-size: 0.373rem;
+    font-family: 思源字体;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 auto 0.1rem;
+    padding-left: 0.333rem;
+}
+.main .content-form .form  .form-item .text-common::placeholder{
+    color: #999999;
+}
+.main .content-form .form  .form-item .verificat{
+    display: inline-block;
+    height: 0.1rem;
+    color: #f70a0a;
+    padding-left: 0.4rem;
+}
+.main .content-form .form  .txt-button{
+    display: block;
+    width: 7.82rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    background: #ff4141;
+    font-size: 0.4rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.1rem;
+    color: #fff;
+    margin-top: 0.5rem;
+}
+.main .content-form .dialog{
+    display: none;
+    width: 3rem;
+    height: 0.8rem;
+    margin:-0.5rem auto;
+    background: #fff;
+    border-radius: 0.1rem;
+    border: 1px solid #666666;
+    color: #000;
+    line-height: 0.8rem;
+    text-align: center;
+    position: relative;
+    bottom:6.95rem;
+    z-index: 99999;
+}
+
+input::-webkit-input-placeholder {
+    color: #333333;
+}
