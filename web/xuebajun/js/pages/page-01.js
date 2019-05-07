@@ -57,7 +57,7 @@ $(function () {
                     }
                 })
             }else{
-                console.log("stop!");
+                // console.log("stop!");
                 window.clearInterval(timer);
             }
         },1000);
