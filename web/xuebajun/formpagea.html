@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+    <title>中小学在线1对1辅导</title>
+    <script src="css/flexible-css.min.js"></script>
+    <script src="css/flexible.min.js"></script>
+
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/pages/page-02.css">
+</head>
+<body>
+<div class="main">
+    <div class="content">
+        <img src="images/page-02/logo.jpg">
+    </div>
+    <div class="form">
+        <div class="input-form">
+            <div class="input-form">
+            <p class="input_title">学生年级<span style="color: #e70600;">*</span></p>
+            <div class="input-wrapper">
+                    <select class="select-age-num grade01">
+                        <option value="" selected="selected">学生年级</option>
+                        <option value="学龄前">学龄前</option>
+                        <option value="1-3年级">1-3年级</option>
+                        <option value="4-6年级">4-6年级</option>
+                        <option value="初中">初中</option>
+                        <option value="高中">高中</option>
+                    </select>
+                </div>
+            <p class="input_title">学生姓名<span style="color: #e70600;">*</span></p>
+            <div class="input-wrapper">
+              <input type="text" class="input-phone-num name" id="name01" placeholder="请输入学生姓名"/>
+            </div>
+            <p class="input_title">家长手机号<span style="color: #e70600;">*</span></p>
+            <div class="input-wrapper">
+                <input type="number" maxlength="11" class="input-phone-num" id="phone01" placeholder="请输入手机号"/>
+                <input type="button" class="getCode" value="获取验证码" id="code01"></button>
+            </div>
+            <div class="input-wrapper code" id="code_input01">
+                <input type="number" class="input-code-num" id="code_text01"  placeholder="请输入验证码"/>
+            </div>
+            <button type="button" class="txt-button" id="btn01">立刻免费领取</button>
+        </div>
+    </div>
+    <div class="content">
+        <img src="images/page-02/image1.jpg">
+    </div>
+    <div class="content">
+        <img src="images/page-02/image2.jpg">
+    </div>
+    <div class="content">
+        <img src="images/page-02/image3.jpg">
+    </div>
+    <div class="content">
+        <img src="images/page-02/image4.jpg">
+    </div>
+    <div class="content">
+        <img src="images/page-02/image5.jpg">
+    </div>
+    <div class="content">
+        <img src="images/page-02/image6.jpg">
+    </div>
+    <div class="form">
+        <div class="input-form">
+            <p class="input_title">学生年级<span style="color: #e70600;">*</span></p>
+            <div class="input-wrapper">
+                <select class="select-age-num grade02">
+                    <option value="" selected="selected">学生年级</option>
+                    <option value="学龄前">学龄前</option>
+                    <option value="1-3年级">1-3年级</option>
+                    <option value="4-6年级">4-6年级</option>
+                    <option value="初中">初中</option>
+                    <option value="高中">高中</option>
+                </select>
+            </div>
+            <p class="input_title">学生姓名<span style="color: #e70600;">*</span></p>
+            <div class="input-wrapper">
+                <input type="text" class="input-phone-num  name02"  placeholder="请输入学生姓名"/>
+            </div>
+            <p class="input_title">家长手机号<span style="color: #e70600;">*</span></p>
+            <div class="input-wrapper">
+                <input type="number" maxlength="11" class="input-phone-num" id="phone02" placeholder="请输入手机号"/>
+                <input type="button" class="getCode"  value="获取验证码"  id="code02"></button>
+            </div>
+            <div class="input-wrapper code" id="code_input02">
+                <input type="number" class="input-code-num" id="code_text02"  placeholder="请输入验证码"/>
+            </div>
+            <button type="button" class="txt-button" id="btn02">立刻免费领取</button>
+        </div>
+        <div class="content">
+            <img src="images/page-02/image7.jpg">
+        </div>
+        <div class="bottom"></div>
+    </div>
+    <!--悬浮底部btn-->
+    <button type="button" class="suspend_btn">立刻免费领取</button>
+    <div class="modal">
+        <div class="modal-message">
+            <h3 class="modal-h3"></h3>
+        </div>
+    </div>
+</div>
+<script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="js/pages/page-03.js"></script>
+</body>
+<script src="" id="script1" type="text/javascript">
+</script>
+<script  type="text/javascript">
+    $('.suspend_btn').click(function(){$('html,body').animate({scrollTop: '0px'}, 800);});     //页面滚动至顶部
+    document.getElementById("script1").src="test.js?ver="+Math.random();
+</script>
+</html>
